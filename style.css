@@ -1,0 +1,116 @@
+p{
+	position: absolute;
+	top: 1vh;
+	right: 1vw;
+	font-family: 'Antic', sans-serif;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+h1{
+	position: relative;
+	top: 15vh;
+	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 60px;
+}
+
+
+
+.grid-container {
+	position: relative;
+	top:30vh;
+  	display: grid;
+  	grid-gap: 30px;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	grid-template-rows: 1fr 1fr 1fr;
+  	font-family: 'Antic', sans-serif;
+  	font-size: 35px;
+  	text-align: center;
+  	cursor: pointer;
+}
+
+.grid-item1{
+	background-color: rgb(255,153,153);
+	padding:20px;
+}
+
+.grid-item2{
+	background-color: rgb(255,204,153);
+	padding: 20px;
+}
+
+.grid-item3{
+	background-color: rgb(255,255,153);
+	padding:20px;
+}
+
+.grid-item4{
+	background-color: rgb(204,255,153);
+	padding: 20px;
+}
+
+.grid-item5{
+	background-color: rgb(153,255,153);
+	padding:20px;
+}
+
+.grid-item6{
+	background-color: rgb(153,255,204);
+	padding: 20px;
+}
+
+.grid-item7{
+	background-color: rgb(153,255,255);
+	padding:20px;
+}
+
+.grid-item8{
+	background-color: rgb(153,204,255);
+	padding: 20px;
+}
+
+.grid-item9{
+	background-color: rgb(153,153,255);
+	padding: 20px;
+}
+
+.grid-item1:hover{
+	background-color: rgb(255,51,51);
+}
+
+.grid-item2:hover{
+	background-color: rgb(255,153,51);
+}
+
+.grid-item3:hover{
+	background-color: rgb(255,255,51);
+}
+
+.grid-item4:hover{
+	background-color: rgb(153,255,51);
+}
+
+.grid-item5:hover{
+	background-color: rgb(51,255,51);
+}
+
+.grid-item6:hover{
+	background-color: rgb(51,255,153);
+}
+
+.grid-item7:hover{
+	background-color: rgb(51,255,255);
+}
+
+.grid-item8:hover{
+	background-color: rgb(51,153,255);
+}
+
+.grid-item9:hover{
+	background-color: rgb(51,51,255);
+}
+
+p:hover{
+	color:red;
+}
